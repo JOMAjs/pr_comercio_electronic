@@ -1,0 +1,117 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "My First API",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api/order": {
+            "get": {
+                "summary": "List all order",
+                "operationId": "2e0a787dfc4b1239185f92b95e14cbb9",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            },
+            "post": {
+                "summary": "List all order",
+                "operationId": "e6f6ccd33c4446106ff016845490d367",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            }
+        },
+        "/api/order-show": {
+            "post": {
+                "summary": "List all order",
+                "operationId": "fb30544142fc05203f037ff86c7e0ce2",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            }
+        },
+        "/api/order/{id}": {
+            "post": {
+                "summary": "List all products",
+                "operationId": "39a31ec64b406f01e3e7d821a4dd29dc",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            }
+        },
+        "/api/products": {
+            "get": {
+                "summary": "List all products",
+                "operationId": "1bfaa78d1c2c3848ab8165c5dadcad3e",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            },
+            "post": {
+                "summary": "List all products",
+                "operationId": "e8185e307706e2cd84bbcf5171e2f09d",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            }
+        },
+        "/api/products-show": {
+            "post": {
+                "summary": "List all products",
+                "operationId": "52004774b10dd213e17be5bef0e6afa2",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            }
+        },
+        "/api/products/{id}": {
+            "post": {
+                "summary": "List all products",
+                "operationId": "e39a9600a4aa566ddc50df4bc2768854",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            }
+        }
+    }
+}
